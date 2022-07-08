@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class HailToArmstrong {
     public static void main(String[] args) {
 /*
@@ -20,31 +20,32 @@ What is armstrong numbers?
 *  */
 
         //LET'S GET STARTED
-        int counter=0, result=0;
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int isArmstrong = scan.nextInt();
-        int temp=isArmstrong, mod;
-        while(temp!=0){
-            temp /= 10;
-            counter++;
-        }
-            temp=isArmstrong;
-            while(temp!=0){
-                mod=temp%10;
-                int init=1;
-                for (int i=1; i<=counter;i++){
-                    init*=mod;
-                }
-                    result+=init;
-                    temp/=10;
-            }
-            if(result==isArmstrong){
-                System.out.println(isArmstrong+"     is an Armstrong Number.");
-            }
-            else
-                System.out.println(isArmstrong+"     is not an Armstrong Number.");
 
+        for (int k=1; k<1000;k++) {
+            int counter=0, result=0; //we declared these two integer in this loop bc at the end
+            // of every loop, we have to initialise these two variables to make sure that they
+            // don't affect the result variable.
+            int temp = k, mod;
+            while (temp != 0) {
+                temp /= 10;
+                counter++;
+            }
+            temp = k;
+            while (temp != 0) {
+                mod = temp % 10;
+                int init = 1;
+                for (int i = 1; i <= counter; i++) {
+                    init *= mod;
+                }
+                result += init;
+                temp /= 10;
+            }
+
+            if (result == k) {
+                System.out.println(k + "     is an Armstrong Number.");
+            } else
+                System.out.println(k + "     is not an Armstrong Number.");
+        }
 
 
     }
