@@ -1,6 +1,3 @@
-import java.util.Scanner;
-public class HailToArmstrong {
-public static void main(String[] args) {
 /*
 * This code aims to solve certain problem.
 * link: https://app.patika.dev/courses/java101/pratik-armstrong-1
