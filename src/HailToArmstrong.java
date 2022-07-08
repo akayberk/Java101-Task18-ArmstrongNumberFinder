@@ -43,8 +43,7 @@ What is armstrong numbers?
 
             if (result == k) {
                 System.out.println(k + "     is an Armstrong Number.");
-            } else
-                System.out.println(k + "     is not an Armstrong Number.");
+            }
         }
 
 
