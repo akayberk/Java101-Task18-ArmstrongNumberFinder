@@ -21,8 +21,8 @@ What is armstrong numbers?
 
         //LET'S GET STARTED
 
-        for (int k=1; k<1000;k++) {
-            int counter=0, result=0; //we declared these two integer in this loop bc at the end
+        for (int k = 1; k < 1000; k++) {
+            int counter = 0, result = 0; //we declared these two integer in this loop bc at the end
             // of every loop, we have to initialise these two variables to make sure that they
             // don't affect the result variable.
             int temp = k, mod;
@@ -45,7 +45,6 @@ What is armstrong numbers?
                 System.out.println(k + "     is an Armstrong Number.");
             }
         }
-
-
     }
-}
+    }
+

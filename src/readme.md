@@ -1,6 +1,6 @@
 /* This code aims to solve certain problem.
 * link: https://app.patika.dev/courses/java101/pratik-armstrong-1
-* PROBLEM: Find armstrong numbers in 0<x<1000 range 
+* PROBLEM: Find armstrong numbers in 0<x<1000 range.
 * 
 * What is armstrong numbers? 
 * Armstrong number definition is the number in any given number base, which forms the total of the
